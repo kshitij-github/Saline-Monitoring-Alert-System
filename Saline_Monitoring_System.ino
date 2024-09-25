@@ -66,7 +66,7 @@ void loop() {
     if(weight < 30.0 && weight > 20.0 )
     {
     lcd.clear();
-    lcd.print("  Send SMS");
+    lcd.print("  Send Alert");
     delay(1000);
     lcd.clear();
     lcd.print("Buzzer");
